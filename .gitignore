@@ -1,0 +1,16 @@
+images/
+results/
+_original/
+HF_UPLOAD_NOTES.md
+GIT_NOTES.md
+
+features/
+*.pt
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+.python-version

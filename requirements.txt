@@ -1,0 +1,18 @@
+# Tested with Python 3.10.
+# Step 3 (compute_distances.py) only needs torch, numpy, pandas, scikit-learn and tqdm.
+torch==2.5.1
+numpy==1.25.1
+pandas==2.0.3
+scikit-learn==1.7.2
+tqdm==4.67.0
+
+# Steps 1-2 (image generation and feature extraction, GPU)
+accelerate==0.33.0
+diffusers==0.31.0
+transformers==4.46.0
+huggingface-hub==0.26.1
+safetensors==0.4.5
+sentencepiece==0.2.0
+protobuf==5.28.2
+Pillow==9.0.1
+s2wrapper @ git+https://github.com/bfshi/scaling_on_scales.git
